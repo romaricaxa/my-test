@@ -26,7 +26,7 @@ function App() {
   );
   return (
     <div className="App">
-      {loading ? "loading" : data.hits.map(h => <div>{h.title}</div>)}
+      {loading ? "loading2" : data.hits.map(h => <div>{h.title}</div>)}
     </div>
   );
 }
